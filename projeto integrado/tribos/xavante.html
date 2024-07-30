@@ -1,0 +1,758 @@
+ <!DOCTYPE html>
+<html lang="pt-b">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+
+    <script src="js/jsda-nav.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap/bootstrap.css">
+
+    <link rel="stylesheet" href="../css/style-nav.css">
+
+    <link rel="stylesheet" href="../css/fontes.css">
+    <link rel="stylesheet" href="../css/style-footer.css">
+    <link rel="stylesheet" href="../css/style-info2.css">
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+    <nav>
+
+        <input class="menu-button" class="menu" id="toggle" type="checkbox">
+        <label for="toggle" class="hamburger">
+            <div class="top-bun"></div>
+            <div class="meat"></div>
+            <div class="bottom-bun"></div>
+        </label>
+        </input>
+
+
+
+
+        <ul class="menu-bar ">
+            <li><a href="#" class="menu-button">MENU </a></li>
+            <li><a href="../index-portu.html">Home</a></li>
+            <li><a href="../tribos-portu.html">Tribos</a></li>
+            <li><a href="../desmatamento.html">Desmatamento</a></li>
+            <li><a href="../cadastro.html">Cadastro</a></li>
+            <li><a href="guarani-info1.html">Guarani</a></li>
+            <li><a href="tupinamba.html">Tupinamba</a></li>
+            <li><a href="guajajara.html">Guajajara</a></li>
+            <li><a href="yanomami.html">Yanomami</a></li>
+            <li><a href="caigangue.html">Caingangue</a></li>
+            <li><a href="ticuna.html">Ticuna</a></li>
+            <li><a href="xavante.html">Xavante</a></li>
+            <li><a href="pataxo.html">Pataxó</a></li>
+            <li><a href="potiguara.html">Potiguara</a></li>
+            <li><a href="macuxi.html">Macuxi</a></li>
+            <li><a href="../devdeveloper.html">DevDeveloper</a></li>
+      
+            <div class="dropup-center dropup">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Linguagem
+              </button>
+              <ul class="dropdown-menu">
+                <a class="dropdown-item" href="#">pt-br</a>
+                <a class="dropdown-item" href="../tribos en/xavante-ingles.html">en</a>
+      
+              </ul>
+            </div>
+          </ul>
+
+
+
+
+
+        <svg xmlns="http://www.w3.org/2000/svg" width="122" height="43" viewBox="0 0 122 43" fill="">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M97.8152 0.119285C95.4892 0.41822 92.9067 1.17497 91.0938 2.08873C88.7613 3.26436 86.0031 5.43325 84.3863 7.36318C81.2648 11.0891 79.612 15.2088 79.2915 20.063C79.1462 22.2614 79.2339 23.5887 79.666 25.7354C81.109 32.9034 86.4286 39.0287 93.3694 41.5144C96.4989 42.6353 99.3534 42.9821 102.775 42.6569C106.41 42.3116 109.97 40.976 113.058 38.7998C114.369 37.8756 116.421 35.9189 117.415 34.645C119.447 32.0406 120.959 28.7861 121.675 25.4722C122.02 23.8742 122.107 20.6321 121.856 18.7272C120.786 10.625 115.478 3.93331 107.961 1.2118C105.592 0.354037 103.294 -0.0204211 100.531 0.000856315C99.4804 0.00903992 98.2581 0.0623503 97.8152 0.119285ZM99.2042 1.86952C98.5624 1.9088 97.6008 2.03542 97.0675 2.15104C96.1308 2.35399 96.0851 2.37936 95.7305 2.89563C95.5286 3.18966 95.0451 3.82587 94.6562 4.30941C94.2671 4.79294 93.5821 5.75334 93.134 6.44369C92.6858 7.13392 92.2855 7.69952 92.2445 7.70046C92.1184 7.70326 91.7023 6.72357 91.4892 5.92239L91.2871 5.16284L91.6562 4.56193C92.1708 3.72393 91.9045 3.80997 91.2572 4.69076C90.4323 5.81355 89.7907 6.97995 89.7239 7.47868C89.6731 7.85863 89.7399 8.05902 90.1453 8.7427C90.5087 9.35553 90.6275 9.67925 90.6288 10.0607C90.6297 10.3389 90.709 10.7921 90.8049 11.0679C90.9007 11.3438 90.9558 11.6858 90.9272 11.8278C90.8985 11.97 90.8468 12.2218 90.8122 12.3877C90.7444 12.7126 90.3315 12.963 89.8634 12.963C89.4868 12.963 88.7632 13.6255 87.9726 14.694C87.011 15.9936 86.8055 16.5358 86.6564 18.1666C86.5217 19.6381 86.2424 21.1019 86.0767 21.2046C85.9351 21.2923 85.3135 20.7365 85.0186 20.2584C84.8199 19.9363 84.701 19.8553 84.4675 19.8834C84.0613 19.932 83.8788 20.4835 83.8676 21.6959L83.8587 22.6545L84.6111 23.0142C85.0251 23.2121 85.4658 23.5042 85.5907 23.6632C85.7156 23.8223 85.8921 23.9524 85.9829 23.9524C86.3825 23.9524 86.5567 24.2326 86.475 24.7441C86.3927 25.2595 86.1595 25.3922 85.861 25.0932C85.7457 24.9777 85.6958 24.9808 85.6167 25.1092C85.5482 25.2201 85.4133 25.2449 85.1839 25.1886C85.0006 25.1436 84.5415 25.0624 84.1636 25.0081C83.7858 24.9538 83.3394 24.81 83.1717 24.6888C82.7308 24.3698 82.2528 23.3026 82.1038 22.3042C82.0326 21.8283 81.8346 21.1305 81.6636 20.7535C81.388 20.1462 81.3439 20.0997 81.2753 20.3444C80.987 21.3735 81.3619 24.6996 82.0178 26.9336C83.7344 32.7796 88.7442 37.984 94.4389 39.8371C96.5672 40.5297 97.9071 40.7221 100.605 40.7227C102.71 40.723 103.252 40.6842 104.455 40.4467C109.631 39.4249 114.109 36.3141 117.039 31.7044C119.264 28.2041 120.346 23.8493 119.934 20.0452C119.892 19.6556 119.796 19.3319 119.714 19.3049C119.634 19.2785 119.404 19.4215 119.204 19.6226C118.86 19.967 118.843 20.0236 118.917 20.5966L118.995 21.205L118.291 20.5036C117.546 19.7611 117.499 19.6409 117.288 17.9557C117.228 17.4723 117.127 17.3031 116.555 16.7252C115.796 15.9589 114.563 15.2491 114.132 15.3315C113.977 15.3612 113.85 15.3472 113.85 15.3003C113.85 15.227 112.638 14.8335 112.412 14.8335C112.245 14.8335 112.344 15.2416 112.629 15.7293C112.978 16.326 113.368 16.4037 113.766 15.9561L114.016 15.6756L114.743 16.3157C115.538 17.0149 115.786 17.5139 115.677 18.1929C115.529 19.1059 114.63 19.8606 113.69 19.8606C112.772 19.8606 112.339 19.4347 111.219 17.4298C110.031 15.3044 109.59 14.8589 109.626 15.8226C109.637 16.1314 109.988 16.7558 111.095 18.439C112.43 20.4692 112.581 20.6558 112.95 20.725C113.589 20.8453 113.986 21.4329 113.986 22.2607C113.986 22.6316 113.874 22.9594 113.575 23.4718C112.844 24.72 112.808 25.2284 113.401 25.9147C113.793 26.3684 113.833 26.9043 113.547 27.8888C113.405 28.3788 113.227 28.6563 112.791 29.0688C112.194 29.6333 111.857 30.3922 111.689 31.5514C111.484 32.9653 110.47 33.8959 109.145 33.8859C108.473 33.8807 108.275 33.6884 108.03 32.8041C107.914 32.3849 107.66 31.8395 107.466 31.5921C106.939 30.92 106.77 30.5239 106.633 29.6394C106.565 29.1987 106.379 28.5881 106.219 28.2827C106.06 27.9766 105.893 27.4029 105.848 27.0049C105.753 26.1642 105.548 25.856 104.788 25.4098C104.268 25.1041 104.206 25.0949 103.3 25.1898C101.843 25.3424 101.247 25.3044 100.605 25.0181C98.3333 24.0065 97.6468 20.7926 99.0466 17.7257C99.411 16.9275 99.5287 16.5081 99.5803 15.825L99.6465 14.9486L99.2211 14.5347C98.8724 14.1954 98.7958 14.037 98.7958 13.6562C98.7958 13.2802 98.8816 13.0973 99.2464 12.6974C99.5339 12.3821 99.7276 12.0352 99.7815 11.7395C99.828 11.4846 99.9403 11.132 100.031 10.9561C100.32 10.3967 100.248 10.1803 99.729 10.0401C99.4715 9.9707 99.1831 9.7937 99.0863 9.64558C98.9074 9.37225 98.4528 7.50826 98.4482 7.02987C98.4445 6.64255 98.8464 6.29919 99.3036 6.29919C99.6733 6.29919 99.715 6.34303 100.062 7.09768C100.264 7.53679 100.429 7.93638 100.429 7.9856C100.429 8.15769 100.913 8.75427 101.05 8.75088C101.243 8.74609 102.18 7.42502 102.178 7.16022C102.177 7.04027 102.127 6.86456 102.067 6.76963C101.975 6.62268 101.905 6.63671 101.597 6.86479C101.132 7.20921 100.763 7.15917 100.651 6.73631C100.516 6.22788 100.735 5.67782 101.463 4.69602C102.331 3.52472 102.849 3.07883 103.6 2.85541C104.667 2.53777 105.423 2.65807 106.1 3.25337C106.527 3.629 106.858 3.68956 107.385 3.48882L107.704 3.36736L107.447 3.18755C107.094 2.93982 105.361 2.39094 104.164 2.14777C102.934 1.89793 100.747 1.7753 99.2042 1.86952ZM96.9496 3.71586C96.1668 3.98662 96.0584 4.09885 96.0601 4.6364C96.0622 5.3285 96.1669 5.48083 96.6408 5.48083C97.2107 5.48083 97.5008 5.30266 97.6971 4.83222C97.9054 4.33267 97.9175 3.49198 97.7163 3.49724C97.6361 3.49935 97.2911 3.59767 96.9496 3.71586ZM103.904 11.9705C103.643 12.0664 103.442 12.0865 103.401 12.0207C103.284 11.8307 102.808 11.9009 102.484 12.1557C102.159 12.4118 101.713 13.1781 101.713 13.4803C101.713 13.684 102.062 13.8982 102.393 13.8982C102.519 13.8982 103.127 14.1613 103.744 14.4828C104.361 14.8043 104.991 15.0673 105.145 15.0673C105.332 15.0673 105.571 14.892 105.875 14.531L106.327 13.9945L107.05 14.2387C107.968 14.5484 108.239 14.5453 108.716 14.2197C109.222 13.8749 109.525 13.4527 109.643 12.929C109.797 12.2424 109.612 12.1008 108.601 12.1336C107.697 12.1631 106.306 12.3961 105.736 12.6138C105.441 12.7264 105.372 12.7154 105.272 12.5399C105.078 12.1964 104.65 11.7934 104.49 11.8021C104.407 11.8066 104.143 11.8824 103.904 11.9705ZM88.3465 25.2715L88.0367 25.5384L88.1631 27.3686C88.2672 28.8754 88.34 29.3129 88.5752 29.8456C89.1541 31.157 89.9011 32.0104 91.3856 33.0564C93.0346 34.2184 93.9439 35.1812 94.5991 36.4592C95.2411 37.711 95.9705 38.5357 96.7686 38.9115C97.226 39.1269 97.8622 39.2344 97.8622 39.0965C97.8622 38.8962 97.3548 37.7425 97.2159 37.6271C96.983 37.4334 97.0018 37.0485 97.2787 36.3447C97.5589 35.6325 97.5812 34.6517 97.3312 34.0261C97.1541 33.5826 97.1577 33.5613 97.5025 33.0008C97.8475 32.4398 97.8552 32.394 97.8807 30.7303C97.9051 29.1339 97.8902 29.0027 97.6296 28.5382C97.2184 27.8053 96.5889 27.5382 95.0935 27.462C93.9357 27.4029 93.8923 27.3908 93.6348 27.0515C92.9994 26.2143 92.5273 25.8229 92.1532 25.8229C91.9505 25.8229 91.5882 25.7225 91.348 25.5998C91.0198 25.432 89.1238 25.0046 88.708 25.0046C88.6795 25.0046 88.5168 25.1246 88.3465 25.2715Z"
+                fill="" />
+            <path d="M0 34.6019V8.45425H16.2396V11.8504H3.95122V19.8173H15.076V23.2006H3.95122V34.6019H0Z"
+                fill="black" />
+            <path
+                d="M22.8763 34.9339C21.6316 34.9339 20.5064 34.7041 19.5005 34.2444C18.4945 33.7763 17.6975 33.0996 17.1093 32.2144C16.5296 31.3292 16.2397 30.244 16.2397 28.9587C16.2397 27.8522 16.4529 26.9415 16.8791 26.2265C17.3053 25.5115 17.8808 24.9455 18.6054 24.5284C19.33 24.1114 20.1398 23.7964 21.0349 23.5836C21.93 23.3709 22.8422 23.2091 23.7714 23.0985C24.9478 22.9623 25.9025 22.8516 26.6357 22.7665C27.3688 22.6729 27.9016 22.5239 28.2341 22.3197C28.5665 22.1154 28.7328 21.7834 28.7328 21.3238V21.2344C28.7328 20.1194 28.4173 19.2555 27.7865 18.6427C27.1642 18.0298 26.235 17.7234 24.9989 17.7234C23.7117 17.7234 22.6972 18.0085 21.9556 18.5788C21.2225 19.1406 20.7152 19.7662 20.4339 20.4556L16.8407 19.6385C17.267 18.4469 17.8893 17.4851 18.7077 16.7531C19.5346 16.0126 20.4851 15.4763 21.5592 15.1444C22.6333 14.8039 23.7628 14.6337 24.9478 14.6337C25.732 14.6337 26.5632 14.7273 27.4413 14.9146C28.3278 15.0933 29.1547 15.4253 29.922 15.9104C30.6977 16.3956 31.3328 17.0893 31.8272 17.9915C32.3217 18.8852 32.5689 20.0471 32.5689 21.477V34.4998H28.835V31.8186H28.6816C28.4344 32.3123 28.0636 32.7975 27.5691 33.2741C27.0747 33.7508 26.4396 34.1466 25.6638 34.4615C24.8881 34.7764 23.9589 34.9339 22.8763 34.9339ZM23.7074 31.8697C24.7645 31.8697 25.6681 31.6612 26.4183 31.2441C27.177 30.827 27.7524 30.2823 28.1445 29.6099C28.5452 28.9289 28.7455 28.2012 28.7455 27.4266V24.8987C28.6091 25.0349 28.3449 25.1625 27.9527 25.2817C27.5691 25.3924 27.1301 25.4902 26.6357 25.5754C26.1412 25.652 25.6596 25.7243 25.1907 25.7924C24.7219 25.852 24.3297 25.9031 24.0143 25.9456C23.2727 26.0392 22.5949 26.1967 21.9812 26.418C21.3759 26.6393 20.89 26.9585 20.5234 27.3756C20.1654 27.7841 19.9864 28.3289 19.9864 29.0098C19.9864 29.9546 20.3359 30.6696 21.0349 31.1547C21.7339 31.6314 22.6248 31.8697 23.7074 31.8697Z"
+                fill="" />
+            <path d="M36.1195 34.6019V13.3558H39.9428V34.6019H36.1195Z" fill="" />
+            <path
+                d="M53.3254 12.7568V15.821H42.597V12.7568H53.3254ZM45.4741 8.05844H49.2974V27.4011C49.2974 28.1416 49.2974 34.4998 49.2974 34.4998H45.4741V8.05844Z"
+                fill="" />
+            <path
+                d="M60.0488 22.6256V34.2695H56.2254V7.82812H59.9976V15.3321C60.5902 14.6766 61.714 14.4418 62.3249 14.295C62.9358 14.1483 64.4928 14.2363 66.0187 14.2363C67.3656 14.2363 68.582 14.68 69.5879 15.2333C70.6024 15.7865 71.3866 16.6121 71.9407 17.7101C72.5033 18.7996 72.7846 20.1615 72.7846 21.7957V34.2695H68.9614V22.2553C68.9614 20.8169 68.5906 19.7018 67.8489 18.9103C67.1073 18.1102 66.0758 17.7101 64.7544 17.7101C63.8508 17.7101 63.041 17.9016 62.3249 18.2847C61.6173 18.6677 61.059 19.2295 60.6498 19.97C60.2491 20.702 60.0488 21.5872 60.0488 22.6256Z"
+                fill="" />
+            <path
+                d="M39.9554 9.74569C39.9554 10.8047 39.0969 11.6633 38.0379 11.6633C36.9788 11.6633 36.1203 10.8047 36.1203 9.74569C36.1203 8.68665 36.9788 7.82812 38.0379 7.82812C39.0969 7.82812 39.9554 8.68665 39.9554 9.74569Z"
+                fill="" />
+        </svg>
+
+
+
+        <script>
+
+
+            document.addEventListener("DOMContentLoaded", function () {
+                // Código a ser executado quando o DOM estiver pronto.
+
+                // Adicionar um ouvinte de evento de clique ao botão.
+                var menuButton = document.querySelector(".menu-button");
+                var menuBar = document.querySelector(".menu-bar");
+
+                menuButton.addEventListener("click", function () {
+                    menuBar.classList.toggle("open");
+                });
+            });
+
+        </script>
+
+    </nav>
+
+    <main>
+
+
+        <div class="title-do-site-pag1">
+
+
+            <div class="ostitulos">
+
+                <div class="item toda-caixa-title" onclick="ativarElemento(this)">
+                    <h1><a href="guarani-info1.html">Guarani</a></h1>
+
+                </div>
+
+                <div class="toda-caixa-title" onclick="ativarElemento(this)"
+                    class="item toda-caixa-title">
+
+                    <h1><a href="tupinamba.html">Tupinambá</a></h1>
+
+                </div>
+
+                <div onclick="ativarElemento(this)" class="item toda-caixa-title">
+
+                    <h1><a href="guajajara.html">Guajajara</a></h1>
+
+                </div>
+
+                <div  onclick="ativarElemento(this)" class="item toda-caixa-title">
+
+                    <h1><a    href="yanomami.html">Yanomami</a></h1>
+
+                </div>
+
+                <div  onclick="ativarElemento(this)" class="item toda-caixa-title">
+
+                    <h1><a  href="caigangue.html">Caingangue</a></h1>
+
+                </div>
+
+                <div onclick="ativarElemento(this)" class="item toda-caixa-title">
+
+                    <h1><a href="ticuna.html">Ticuna</a></h1>
+
+                </div>
+
+                <div style="border-bottom: solid #D40000 5px;"  onclick="ativarElemento(this)" class="item toda-caixa-title">
+
+                    <h1><a style="color: black;" href="xavante.html">Xavante</a></h1>
+
+                </div>
+
+                <div onclick="ativarElemento(this)" class="item toda-caixa-title">
+
+                    <h1><a href="pataxo.html">Pataxó</a></h1>
+
+                </div>
+
+                <div onclick="ativarElemento(this)" class="item toda-caixa-title">
+
+                    <h1><a href="potiguara.html">Potiguara</a></h1>
+
+                </div>
+
+                <div onclick="ativarElemento(this)" class="item toda-caixa-title">
+
+                    <h1><a href="macuxi.html">Macuxi</a></h1>
+
+                </div>
+
+
+                <script>
+                    function ativarElemento(elemento) {
+                        elemento.classList.remove("item");
+
+                    }
+                </script>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+        <div class="caixa-inicial">
+            <div class="textos-inicial">
+                <h1>APRENDA MAIS SOBRE OS YANOMAMIS</h1>
+                <p>Para saber mais sobre a cultura dessa tribo com diversos costumes interessantes, clique no botão
+                    abaixo:</p>
+
+                <div class="butoom-tiles-daspg">
+
+                    <a style="background: #D40000;" href="#ali-reli-lin">Saber Mais</a>
+
+                </div>
+
+            </div>
+            <div class="lado-esquerdo-dos-titles">
+
+                <img src="../img/image22.png" alt="">
+
+            </div>
+        </div>
+
+        <style>
+            .cor-para-tudo {
+                background: #B40707;
+
+            }
+
+            .move-fundo-verde {
+
+                fill: #D40000;
+
+            }
+
+        </style>
+<div id="ali-reli-lin" ></div>
+        <section class="primeira-sec">
+
+            <div class="para-toda-caixa-daprimeira">
+                <div class="envoltad-da-caixa cor-para-tudo"><img src="../img/servico-de-quarto 1.png" alt=""></div>
+                <h2>Alimentação</h2>
+                <p>
+                    
+                    Tradicionalmente, os Xavantes obtêm parte de sua alimentação por meio do extrativismo, principalmente na forma de frutos, cocos e raízes. As raízes são específicas do cerrado e são coletadas ao longo de todo o ano, com maior intensidade no início da estação seca. Esse trabalho é realizado principalmente pelas mulheres da comunidade.
+                </p>
+            </div>
+
+            <div class="para-toda-caixa-daprimeira">
+                <div class="envoltad-da-caixa cor-para-tudo"><img src="../img/estudos-de-arte 2.png" alt=""></div>
+                <h2>Arte</h2>  
+                <p>
+                  
+                    A primeira cerimônia pública em que os meninos participam é a competição com clavas chamada "ói’ó". Eles começam desde que consigam carregar uma clava e caminhar sozinhos até o local da luta, continuando até os sete a dez anos de idade. Durante a luta, há divisão entre as metades patrilineares, marcada pela pintura facial. O "ói’ó" cultiva o espírito combativo e a capacidade de enfrentar desafios físicos, essenciais para os homens nessa sociedade de caçadores-coletores.
+
+                </p>
+            </div>
+
+            <div class="para-toda-caixa-daprimeira">
+                <div class="envoltad-da-caixa cor-para-tudo"><img src="../img/escolha-de-idioma 1.png" alt=""></div>
+                <h2>Língua</h2>
+                <p>
+                 
+                    Os Xavante (A´uwe) fazem parte do grupo Acuen, família linguística Jê, no tronco Macro-Jê. Historicamente, também foram chamados de "xacriabá" e "acroá" por não indígenas. Não devem ser confundidos com outros grupos de nomes semelhantes, como os Xerente (Akwe). O nome "Xavante" foi atribuído por não indígenas para diferenciá-los dos Xerente. Isso reflete a diversidade das culturas indígenas no Brasil.
+
+                </p>
+            </div>
+
+
+            <svg class="move-fundo-verde" xmlns="http://www.w3.org/2000/svg" width="1920" height="799"
+                viewBox="0 0 1920 799" fill="">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M2313 433.998C2313 639.8 2240.88 693.196 2067.5 780.023L1951.5 793.5H1896V799H-24V793.5H-130.5V563.588C-130.5 264.566 406.483 22.1603 694.5 22.1603C866.088 22.1603 1043.59 118.183 1178.78 253.095C1272.06 62.3144 1465.06 29.5161 1643.5 0.5C2052.5 0.5 2313 142.845 2313 433.998Z"
+                    fill="#" />
+            </svg>
+
+        </section>
+
+        <section class="segunda-part toda-parte">
+
+
+
+
+
+            <div class="textos-da-historia para-toda-parte">
+
+
+
+                <div class="parte-da-historia-titulo para-toda-parte-do-titulo">
+                    <div class="titulo-historia todo-titulo">
+                        <h1>História</h1>
+
+                        <!--linha amarela-->
+                        <div style="
+    width: 109px;
+    height: 14px;
+    flex-shrink: 0;
+    background: #ECAA00; 
+    ">
+                        </div>
+                    </div>
+
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="93"
+                        height="93" viewBox="0 0 93 93" fill="none">
+                        <path d="M0 0H93V93H0V0Z" fill="url(#pattern0)" />
+                        <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use xlink:href="#image0_363_272" transform="scale(0.00195312)" />
+                            </pattern>
+                            <image id="image0_363_272" width="512" height="512"
+                                xlink:href="data:image/png;base64,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" />
+                        </defs>
+                    </svg>
+
+
+                </div>
+
+
+                <div class="primeiro-texto-historia">
+                    <div class="textes-historia1">
+
+                        <p>
+                           <br>
+                           No início do século XVIII, a região de Goiás viu uma corrida do ouro que atraiu mineradores, bandeirantes, colonos e missionários. Essa movimentação resultou em tensões e conflitos com as populações indígenas locais que já habitavam a área. As respostas dos nativos variaram, com algumas comunidades indígenas optando por ataques e emboscadas contra os recém-chegados, enquanto outras escolheram se estabelecer na região ou migrar para áreas menos afetadas pelos colonizadores.
+                           <br><br>
+                           Na segunda metade do século XVIII, vários grupos indígenas, incluindo alguns que mais tarde foram identificados como "Xavante", foram reassentados em aldeamentos apoiados pelo governo. Esses aldeamentos, no entanto, frequentemente enfrentaram a devastação de epidemias trazidas pelos não indígenas, resultando em perdas significativas para as comunidades indígenas.
+                            <br><br>
+                            Em algum momento do final do século XVIII ou início do século XIX, os antepassados dos Xavante cruzaram o rio Araguaia, o que marcou a separação definitiva entre os Xavante e os Xerente. Essa migração em direção ao oeste é lembrada nas tradições orais dos Xavante com histórias dramáticas. Em uma versão, um enorme boto emergiu no meio do Araguaia, tornando o grande rio intransponível, e isso amedrontou os que não ousaram atravessá-lo. Outra versão conta que um grande número de botos ajudou a transportar os Xavante através das turbulentas águas do rio. Ambas as histórias relatam que aqueles que ficaram na margem oriental do rio foram abandonados definitivamente, tornando-se os ancestrais do povo que agora conhecemos como Xerente. Esse deslocamento contribuiu para a separação cultural e geográfica entre esses grupos indígenas.
+
+
+
+
+                        </p>
+
+                        <img src="../img/image17.png   " alt="">
+                      
+
+                    </div>
+  
+
+                </div>
+
+
+
+                <div class="textes-historia2">
+
+                    <p>
+                        
+
+
+
+                    </p>
+
+
+
+                </div>
+
+
+            </div>
+
+
+
+
+
+        </section>
+
+        <section class="terceira-parte-alimentacao toda-parte">
+
+            <div class="parte-da-historia-alimentacao para-toda-parte-do-titulo">
+                <div class="titulo-alimentacao todo-titulo">
+                    <h1>Alimentação</h1>
+
+                    <!--linha amarela-->
+                    <div style="
+  width: 109px;
+  height: 14px;
+  flex-shrink: 0;
+  background: #0A7800; 
+  ">
+                    </div>
+                </div>
+
+
+                <img src="../img/servico-de-quarto 1.png" alt="">
+
+
+            </div>
+
+
+            <div class="textos-da-alinetacao">
+                <div class="textos-das-">
+
+                    <p>
+
+
+                        <br><br><br>
+                        Na tradição alimentar dos Xavante, uma parcela significativa de sua subsistência é proveniente do extrativismo, com foco especial em frutos, cocos e raízes. As raízes desempenham um papel essencial na dieta Xavante e são específicas das áreas de cerrado, onde as comunidades indígenas residem. A coleta dessas raízes ocorre ao longo de todo o ano, com maior intensidade no início da estação seca, quando a disponibilidade é mais propícia.
+
+                        <br><br><br>
+                        É interessante observar que a responsabilidade pela coleta de raízes recai principalmente sobre as mulheres da comunidade Xavante. Elas desempenham um papel crucial nesse aspecto da subsistência, trazendo uma contribuição significativa para a dieta e sustento de suas famílias. Esse processo de coleta, além de prover alimento, também é uma expressão da conexão profunda que os Xavante têm com a terra e o ambiente do cerrado, refletindo sua habilidade em utilizar os recursos naturais da região de maneira sustentável.
+
+
+
+                    </p>
+                    <div style="width: 16px;
+  height: 169px;
+  flex-shrink: 0;
+  background: #0A7800;
+    position: relative;
+    top: -150px;
+    left: -30px;
+  "></div>
+                </div>
+
+                <img src="../img/image16.png" alt="">
+
+
+            </div>
+
+
+        </section>
+
+        <section class="quarta-parte-arte toda-parte">
+
+
+
+
+
+
+            <div class="tudo-da-arte">
+
+                <div class="envolta-dascaixa1-artes">
+
+
+                    <div class="arte-com-texto">
+
+                        <div class="parte-da-arte-titulo para-toda-parte-do-titulo">
+
+                            <div class="titulo-historia todo-titulo">
+                                <h1>Arte</h1>
+
+                                <!--linha azul-->
+                                <div style="
+                                        width: 109px;
+                                        height: 14px;
+                                        flex-shrink: 0;
+                                        background: #06F; 
+                                        ">
+
+                                </div>
+
+                            </div>
+
+                            <img style="
+        
+        width: 131px;
+        height: 131px;
+        flex-shrink: 0;
+        " src="../img/b139c0d6507e73595ff6973bd6f82af7.png" alt="">
+
+                        </div>
+
+                        <div class="dos-textos-da-arte">
+
+
+                            <p>
+                              
+                                Os Xavante, uma comunidade indígena do Brasil, têm uma cerimônia marcante chamada "ói’ó" que envolve competições com clavas. Os meninos participam desde cedo, carregando clavas e caminhando até o local da luta. Esta cerimônia desempenha um papel importante em desenvolver o espírito combativo e a capacidade de enfrentar desafios físicos dos meninos. Além disso, destaca a divisão entre as metades patrilineares durante o evento.
+
+                            </p>
+
+                            <ul>
+                                <h3>Características na Arte Indígena:
+                                </h3>
+                                    <li style="list-style: decimal;">
+                                        Cerimônia "ói’ó": Uma competição com clavas é uma tradição central na cultura Xavante.
+                                    </li>
+                                    <li style="list-style: decimal;">
+                                        
+                                        Participação desde cedo: Meninos começam a participar da cerimônia a partir do momento em que conseguem carregar uma clava e caminhar até o local da luta.
+                                    </li>
+                                    <li style="list-style: decimal;">
+                                        Desenvolvimento de habilidades e identidade: A cerimônia "ói’ó" é fundamental para cultivar o espírito combativo, a capacidade de enfrentar desafios físicos e a identidade.
+                                    </li>
+
+
+                            </ul>
+
+
+                        </div>
+
+
+                    </div>
+                    <div class="caixa-azul1" style="width: 798px;
+              height: 447px;
+              flex-shrink: 0;
+              background: #06F;
+        
+              "></div>
+
+                </div>
+
+                <img class="img-das-asrtes" src="../img/image15.png" alt="">
+
+                <div class="caixa-azul1" style="width: 798px;
+                height: 447px;
+                flex-shrink: 0;
+                background: #06F;
+                  position: absolute;
+                  top: 500px;
+                  left: 1500px;
+                  z-index: -2;
+                "></div>
+
+
+            </div>
+
+
+
+        </section>
+
+        <section class="querta-parte-area-lingua toda-parte">
+
+
+            <div class="area-teritorial">
+
+                <div class="tituli-are">
+
+                    <div class="so-title-area">
+                        <h1>Área territorial</h1>
+                        <div style="background-color: #FB0000;"></div>
+                    </div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="" height="" viewBox="0 0 599 834" fill="none">
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                            d="M293.187 833.5C374.354 750 557.588 545.7 585.188 396.5C595.854 358.333 609.687 268 585.188 203.5C560.688 139 468.187 5 378.188 5L303.438 0L228.688 5C151.687 5 49.1877 78.2 3.18775 233C-4.34654 308.786 1.47438 367.68 20.6542 439.628C25.6982 458.549 33.5972 476.555 43.5418 493.423C118.591 620.728 253.566 833.5 293.187 833.5ZM300.686 472.5C389.88 472.5 462.186 400.194 462.186 311C462.186 221.806 389.88 149.5 300.686 149.5C211.492 149.5 139.186 221.806 139.186 311C139.186 400.194 211.492 472.5 300.686 472.5Z"
+                            fill="white" />
+                    </svg>
+
+
+                </div>
+
+                <p>
+                    
+                    Em 2020, a população Xavante era de cerca de 22.256 indivíduos que habitavam várias Terras Indígenas em seu território tradicional por aproximadamente 180 anos, localizado no leste de Mato Grosso, entre a Serra do Roncador e os vales de diversos rios. A maioria dessas terras está geograficamente separada. Essas áreas são fundamentais para o estilo de vida tradicional dos Xavante devido à rica biodiversidade local. No entanto, desde a década de 1960, essa região tem enfrentado impactos ambientais irreversíveis devido à expansão da agropecuária, especialmente a produção de soja voltada para a exportação, processo que se intensificou nos anos 1980.
+                </p>
+
+
+            </div>
+
+
+
+            <div class="area-teritorial lingua">
+
+                <div class="tituli-are">
+
+                    <div class="so-title-area">
+                        <h1>Língua</h1>
+                        <div></div>
+                    </div>
+                    <svg width="" height="" viewBox="0 0 1012 802" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M21.6982 556.37C28.9804 583.9 58.4664 637.864 121.5 647.88V753.206C121.5 774.383 144.768 787.317 162.753 776.137L366.495 649.5H502H504.556L507.037 648.887C523.418 644.84 547.532 635.345 568.048 619.328C588.674 603.225 608 578.503 608 544.5V288V283.043L605.783 278.609C599.009 265.06 585.905 245.597 567.654 229.237C549.432 212.905 524.144 198 493.5 198H128H126.242L124.509 198.292C108.257 201.032 83.966 208.128 63.1215 221.154C42.5063 234.036 21 255.664 21 288V551V553.73L21.6982 556.37Z"
+                            stroke="white" stroke-width="42" />
+                        <path
+                            d="M602 432.5H678L857.845 549C867.825 555.465 881 548.302 881 536.411V432.5C917 428.667 989.3 406 990.5 346V98C978.167 72.3333 942.6 21 899 21H569.176C543.906 21 518.282 24.3779 496.451 37.1049C471.957 51.3846 447.529 72.6255 447 98V215.5"
+                            stroke="white" stroke-width="42" />
+                        <path d="M207 537L310.132 325.777C310.492 325.04 311.537 325.025 311.917 325.752L422.5 537"
+                            stroke="white" stroke-width="32" />
+                        <path d="M244 455H385.5" stroke="white" stroke-width="32" />
+                        <path
+                            d="M673 326C689.103 316.492 713.72 296.921 734.335 269.5M630 172.5H728.5M728.5 172.5V112M728.5 172.5H768.25H808H771.5C769.75 210.608 753.832 243.565 734.335 269.5M734.335 269.5L808 318.5L673 225.5"
+                            stroke="white" stroke-width="33" />
+                    </svg>
+
+
+                </div>
+
+                <p>
+                    
+ 
+                    Os Xavante, também conhecidos como A´uwe, fazem parte do conjunto etnolinguístico Acuen, que inclui os Xerente (Akwe) de Tocantins. Pertencem à família linguística Jê, uma das famílias indígenas do tronco Macro-Jê. No passado, os Acuen eram chamados de "xacriabá" e "acroá" por não indígenas para distingui-los. Eles eram frequentemente chamados de "Tapuias" em contraste com os grupos "Tamoios" do tronco Tupi no litoral brasileiro.
+                    <br><br>
+
+É importante notar que os Xavante não devem ser confundidos com outros grupos indígenas que têm nomes semelhantes, como os Oti-Xavante em São Paulo e os Ofaié-Xavante no Mato Grosso. A atribuição do nome "Xavante" a esses grupos foi feita por não indígenas para distingui-los dos Xerente. Essa diferenciação de nomes é comum na história das relações entre povos indígenas e não indígenas, refletindo a diversidade das culturas indígenas no Brasil.
+
+                </p>
+
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+
+
+    <footer class="footer1">
+
+        <div class="todo-ofoter">
+
+            <div class="primeira-par-fot-tex-im">
+                <img src="../img/logbranca.png" alt="">
+
+                <div class="textos-preservation">
+
+                    <h1>LEARNING IS THE WAY</h1>
+
+                    <p>Nós acreditamos que a cultura indígena deve ser preservada e deve continuar a ser o nosso
+                        patrimônio!</p>
+
+
+                    <div class="but-no-futer">
+
+                        <a href="">Voltar ao início</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="linha-reta"></div>
+
+
+            <div class="toda-segunda-parte">
+                <div class="segunda-parte-dofoot">
+
+
+                    <h2>INFORMAÇÕES DA EMPRESA</h2>
+                    <div class="div-dos-email">
+                        <p>Sobre os desenvolvedores </p>
+
+                            <a href="devdeveloper.html">Saiba Mais</a>
+                    </div>
+
+                </div>
+
+
+
+                <div class="terceira-parte-dofoot">
+
+                    <h2>CONTATE-NOS <br> COM UM E-MAIL!</h2>
+
+                    <div class="div-dos-email">
+                        <p>vitor.arevalo@etec.sp.gov.br</p>
+
+                        <p>vitor.arevalo@etec.sp.gov.br</p>
+
+                        <p>vitor.arevalo@etec.sp.gov.br</p>
+
+                        <p>vitor.arevalo@etec.sp.gov.br</p>
+
+                        <p>vitor.arevalo@etec.sp.gov.br</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="etec">
+            <a target="_blank"
+                href="https://www.google.com/maps?client=opera-gx&q=etec+parque+belém&oe=UTF-8&um=1&ie=UTF-8&sa=X&ved=2ahUKEwi1uNaRkvaBAxURq5UCHQXyAQ0Q_AUoAXoECAUQAw">
+
+                <h5>©2023 Todos os direitos reservados ETEC</h5>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="15" viewBox="0 0 7 12" fill="none">
+                    <circle cx="3.5" cy="3.5" r="3.5" fill="white" />
+                    <path d="M3.50036 11.3999L0.300391 4.7999L6.90039 4.3999L3.50036 11.3999Z" fill="white" />
+                    <circle cx="3.59961" cy="3.6001" r="2" fill="black" />
+                </svg>
+
+                <h5 style="margin-left: 15px;">São Paulo, SP - Brasil </h5>
+            </a>
+
+
+        </div>
+
+
+
+
+    </footer>
+
+
+    <footer class="footer2">
+        <div class="log-preservation">
+            <div class="preve-img-h1-p-bu">
+
+
+                <div class="preservation-p">
+                    <img src="../img/logbranca.png" alt="">
+
+
+
+                    <h1>LEARNING IS THE WAY</h1>
+
+                </div>
+
+                <p>Nós acreditamos que a cultura indígena deve ser preservada e deve continuar a ser o nosso patrimônio!
+                </p>
+
+                <div class="but-no-futer2">
+
+                    <a href="">Mais</a>
+                </div>
+
+
+            </div>
+
+            <div class="do-email">
+                <h2>CONTATE-NOS COM UM E-MAIL!</h2>
+
+                <p>vitor.arevalo@etec.sp.gov.br</p>
+
+                <p>vitor.arevalo@etec.sp.gov.br</p>
+
+                <p>vitor.arevalo@etec.sp.gov.br</p>
+
+                <p>vitor.arevalo@etec.sp.gov.br</p>
+
+                <p>vitor.arevalo@etec.sp.gov.br</p>
+
+
+            </div>
+
+
+        </div>
+
+
+        <div class="etec">
+            <a target="_blank"
+                href="https://www.google.com/maps?client=opera-gx&q=etec+parque+belém&oe=UTF-8&um=1&ie=UTF-8&sa=X&ved=2ahUKEwi1uNaRkvaBAxURq5UCHQXyAQ0Q_AUoAXoECAUQAw">
+
+                <h5>©2023 Todos os direitos reservados ETEC</h5>
+
+                <svg xmlns="http://www.w3.org/2000/svg" width="10" height="15" viewBox="0 0 7 12" fill="none">
+                    <circle cx="3.5" cy="3.5" r="3.5" fill="white" />
+                    <path d="M3.50036 11.3999L0.300391 4.7999L6.90039 4.3999L3.50036 11.3999Z" fill="white" />
+                    <circle cx="3.59961" cy="3.6001" r="2" fill="black" />
+                </svg>
+
+                <h5 style="margin-left: 15px;">São Paulo, SP - Brasil </h5>
+            </a>
+
+
+        </div>
+
+
+    </footer>
+
+
+
+</body>
+
+</html>

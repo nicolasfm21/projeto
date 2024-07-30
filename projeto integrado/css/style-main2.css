@@ -1,0 +1,82 @@
+
+.foto-com-fundo-bra{
+    
+background-color: white;
+
+width: 600px;
+height: 620px;
+transform: rotate(-7.305deg);
+border-radius: 25px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+
+}
+.das-fun-e-sobre, .h3{
+    color: #FFF;
+    font-family: inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    
+}
+.das-fun-e-sobre li{
+    color: #FFF;
+    font-family: inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+
+    width: fit-content;
+    margin: 10px;
+}
+
+.img-das-fitos{
+
+    background-color: black;
+    width: 90%;
+    height: 80%;
+    margin-top: 10%;
+
+}
+.polaraloid{
+
+    display: flex;
+}
+.div-sobre{
+
+width: 60vh;
+}
+.div-sobre p {
+color: white;
+font-size: 2rem;
+
+}
+.com-tudo-nome{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+padding: 10vh;
+
+}
+.das-fun-e-sobre{
+    margin-left: 15vh;
+width: min-content;
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+}
+
+.div-funco,.div-sobre{
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+}

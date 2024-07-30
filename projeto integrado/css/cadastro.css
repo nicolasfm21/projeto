@@ -1,0 +1,408 @@
+main{
+
+  display: grid;
+  place-items: center;
+
+}
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  cursor: pointer;
+  border: none;
+  background: no-repeat;
+}
+/* Estilos iniciais */
+.flip-card {
+
+  padding: 20px;
+
+  /*perspective: 1000px;
+  width: 300px;
+  height: 300px; */
+  width: 80%;
+  height: 90vh;
+
+}
+
+.flip-card-inner {
+  width: 100%;
+  
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+/* Adiciona uma classe 'flipped' quando o botão é clicado */
+.flipped .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  
+  width: 100%;
+  height: 70vh;
+
+  position: absolute;
+  backface-visibility: hidden;
+  top: 10vh;
+  
+
+}
+
+.flip-card-back {
+  transform: rotateY(180deg);
+  background-color: #f1f1f1;
+
+  display: flex;
+
+  
+  flex-direction: row;
+
+  
+
+
+}.esquerda-back{
+    
+  background-image: url(../img/fundoasd12321.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+  padding-bottom: 8vh;
+}
+
+.esquerda-back h1{
+  color: white;
+  font-weight:400;
+  border-bottom: 6px solid white ;
+
+
+
+}
+.esquerda-back h2{
+color: white;
+text-align: center;
+font-weight: 300;
+
+}
+
+
+.caixa-branca-do-in input {
+
+  box-shadow: 0 0 0 0;
+  border: 0 none;
+
+  outline: 0;
+  width: min-content;
+  color: #666;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.caixa-branca-do-in {
+  background: #FFF;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.25);
+  width: fit-content;
+  height: 51.408px;
+  flex-shrink: 0;
+  display: flex;
+  margin-left: 10px;
+}
+
+
+.caixa-branca-do-in svg {
+
+  width: 46px;
+  height: 46px;
+
+}
+
+.as6tecgs {
+
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  background: rgba(250, 250, 250, 0.58);
+  box-shadow: 0px 0px 28px 12px rgba(0, 0, 0, 0.25);
+  padding: 20px;
+
+  .do-botao::after{
+
+    content: "Entrar";
+    margin-left: 10px;
+    font-weight: 500;
+    color: #03614AAA;
+    }
+}
+.tecgs{
+
+display: flex;
+flex-direction: column;
+
+margin-top: 50px;
+}
+
+.dois-dois{
+
+
+display: flex;
+justify-content: space-around;
+
+}
+
+.genero{
+
+margin-top: 50px;
+
+
+}
+
+.dos-input{
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  > label{
+    color: #000;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+}
+
+.as6tecgs .da-mensagem{
+
+  background: #00AD83;
+  box-shadow: 0px 3px 9px 0px rgba(0, 0, 0, 0.25);
+  width: 100%;
+
+  color: #FFF;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.outrolado {
+
+  background-color: #03614A;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.sem-o-titulo{
+
+  display: flex;
+  
+}
+
+
+#login,#login1,#login2,#login3,#login4,#login5,#login7{
+
+  position: absolute;
+
+  top: 50%;
+
+  left: 50%;
+
+  transform: translate(-50%, -50%);
+  
+  font-size: 18px;
+  color: #333;
+  padding: 10px;
+  background-color: rgb(255, 255, 255);
+
+  border-radius: 50%;
+  text-align: center;
+  
+  animation: fadeIn 1s ease-in-out;
+  width: 50vh;
+  height: 30vh;
+  box-shadow: 0px 0px 28px 12px rgba(0, 0, 0, 0.25);
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  display: none;
+
+  
+ 
+
+  
+}
+
+
+
+#login,#login1,#login2,#login3,#login4 { svg{
+  position: absolute;
+  top: 0px;
+  left: 90%;  
+
+  width: 50px;
+  height: 50px;
+}}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.do-botao{ 
+  color: #000;
+  
+  font-family: Inter;
+  font-size: 19px;
+  text-align: left;
+  padding-top: 10px;
+
+
+}
+
+
+
+
+#parte-do-entrar .outrolado{
+  
+  background-image: url(../img/fundoasd12321.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 70vh;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+  padding-bottom: 8vh;
+
+  
+
+
+}
+.caixa-branca-do-in2, .caixa-branca-do-in2 input{
+  color: rgba(0, 0, 0, 0.20);
+  font-family: Inter;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  border: none;
+  width: 405px;
+  height: 59px;
+  flex-shrink: 0;
+  background: #F5F5F5;
+  box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.25);
+  
+}
+.caixa-branca-do-in2 input{
+  padding: 10px;
+  box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+  color: #000000ce;
+}
+.dos-meio{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.direita-back{
+
+width: 50%;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+padding: 50px;
+padding-top: 40px;
+
+.tecgs{
+
+  margin-top: 3vh;
+
+}
+.do-botao::after{
+
+  content: "Cadastre-se";
+  margin-left: 10px;
+  font-weight: 500;
+  color: #03614AAA;
+  }
+
+}
+.title-back{
+
+align-self: flex-start;
+
+}
+
+.cont-ent{
+  background: #03614A !important;
+  box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.25);
+  width: 405px;
+  height: 72px;
+  flex-shrink: 0;
+
+  color: #FFF;
+font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 3.125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+ .cont-ent img{
+
+  width: 42px;
+  height: 42px;
+  transform: rotate(-90deg);
+
+position: relative;
+left: 20%;
+
+} 
+.tecgs img {
+
+
+  width: 35px;
+  height: 35px;
+  margin-right: 5px;
+}
+
+
+.pode-click{
+
+
+  
+}
+

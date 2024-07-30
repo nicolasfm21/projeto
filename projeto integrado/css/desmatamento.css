@@ -1,0 +1,219 @@
+.primeirarte-do-desmatanto{
+
+   
+    margin-top: 3.5%;
+    padding: 30px;
+    
+    display: flex;
+    flex-direction: column;
+    
+
+    
+}
+.parte-inicial-do-desmatamento-3img{
+display: flex;
+
+justify-content: space-around;
+gap: 30px;
+
+
+
+
+}
+.cada-caixa3{
+
+    width: 553px;
+    margin: 10px;    
+
+}
+    .imagen-desma1{
+
+
+        background: url(../img/9da50d9d10a1d96b0bc308320b0ea965.jpeg);
+        background-size: cover;
+        background-position: center;
+    }
+    .imagen-desma2{
+
+        background: url(../img/indigena-por-do-sol-700-68735689.png);
+        background-size: cover;
+        background-position: center;
+
+    }
+
+.text-do-desmatamento{
+
+    border: 8px solid #F67600;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 35px;
+    position: relative;
+    height: 750px;
+} 
+.text-do-desmatamento p{
+        text-align: left;
+
+
+    }
+    .text-do-desmatamento a{
+
+        color: #F67600;
+        font-size: 28px;
+        
+        padding: 1px;
+        width: fit-content;
+        
+    }
+
+    .text-podemos-fazer{
+
+        width: 75%;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        margin: 30px;
+        margin-top: 100px;
+    }
+    .text-podemos-fazer p{
+
+        text-align: left;
+    }
+
+
+    .fundo-vermelho{
+
+        background-color: #f41c00;
+        margin-top: 150px;
+        height: 454px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+    
+    .caixa3-info{
+
+        background: #FBFBFB;
+        box-shadow: 0px -3px 22.3px 0px rgba(0, 0, 0, 0.25);
+
+
+        max-width: 25%;
+        
+
+        height: 471px;
+        flex-shrink: 0;
+        position: relative;
+        top: -100px;
+        padding: 25px;
+
+        display: flex;
+        align-items: center;
+        
+        flex-direction: column;
+        gap: 20px;
+    }
+    .caixa3-info img{
+        width: 30%;
+        
+    }
+
+
+    /*os-animais*/
+
+
+
+.parte-da-historia-alimentacao {
+    border: 2px solid red;
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+}
+.para-toda-parte-do-titulo{
+
+border: 2px solid rgb(21, 255, 0);
+
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+}
+
+.animais{
+
+background-color: black;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+
+padding: 50px;
+}
+.esquerda{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+
+}
+.title-animais{
+
+    display: flex;
+    align-items: center;
+
+}
+
+.title-animais img{
+
+    width: 3%;
+    margin-left: 10px;
+    
+}
+.todos-animais{
+
+width: 45%;
+
+
+}
+
+.esquerda p{
+
+    color: white;
+    text-align: left;
+}
+
+.tabela-da-desmata{
+
+    border-collapse: separate;
+    padding: 100px;
+    display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+table{
+    border-collapse: collapse;
+
+padding: 10px;
+margin-top: 50px;
+
+}
+
+th,td{
+    padding: 50px;
+border: 3px solid black ;
+
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 113.8%; /* 36.416px */
+letter-spacing: 1.28px;
+}
+
+table tr:nth-child(1){
+
+background-color: #B00;
+color: white;
+}

@@ -1,0 +1,190 @@
+.rosto-titulo{
+display: flex;
+flex-direction: row;
+align-items: center;
+
+}
+#contdaimg-home{
+
+border: 2px solid red;   
+width: 60vh;
+
+}
+#cara-home{
+    
+    position: relative;
+    left: -45%;
+    
+    
+}
+
+.conta-dos-tex h1{
+
+    color: #FFF;
+    font-family: inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+
+    position: relative;
+
+    width: 502px;
+
+}
+
+.conta-dos-tex p{
+
+    color: #FFF;
+font-family: inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+
+
+width: 502px;
+
+}
+.fundo-com-cor {
+
+
+    background: linear-gradient(180deg, rgba(9, 34, 98, 0.00) 0%, rgba(0, 12, 55, 0.66) 49.59%);
+
+    
+
+}
+
+/* tribos */
+
+.tribos{
+    padding: 10px;
+    margin-top: 6vh;
+
+    
+}
+.triangulos-todos{    
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+.das-imgtri{
+    
+display: flex;    
+flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.das-imgtri svg{
+
+   
+      
+}
+
+
+
+
+
+.top-do-index h2{
+
+    color: #FFF;
+font-family: Inter;
+font-size: 64px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+
+.top-do-index p{
+    color: #FFF;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+width: 798px;
+
+}
+
+
+/* desmatamento */
+.top-do-index { 
+
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 70px;
+
+
+}
+
+.top-do-index h2{
+    margin: 10px;
+    margin-bottom: 30px;
+
+
+
+}
+
+.btn-outline-secondary{
+    border: white 6px solid;
+   
+    width: 315px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+    margin: 10vh;
+    margin-top: 8vh;
+ 
+}
+
+.todos-os-com-fundo{
+
+
+display: flex;
+flex-direction: row;
+
+}
+
+.todos-os-com-fundo img{
+    width: 388px;
+    height: 493px;
+    flex-shrink: 0;
+
+    border-radius: 25px;
+   
+}
+.das-img-torta{
+
+position: relative; 
+padding: 40px;
+}
+#img-1{
+
+    position: relative;
+    left: -40vh;
+    top: 15vh;
+}
+#img-2{
+
+transform: rotate(95deg);
+    position: relative;
+    left: 30vh;
+    top: 25vh;
+}

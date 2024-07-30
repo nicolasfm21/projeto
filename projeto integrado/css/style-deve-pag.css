@@ -1,0 +1,314 @@
+
+
+.inicio{
+
+height: 100vh;
+background: #04743E;
+
+display: flex;
+position: relative;
+
+}
+
+
+.inicio h1{
+transform: translate(-50%);
+position: absolute;
+top: 40%;
+left: 50%;
+width: max-content;
+color: white;
+}
+.inicio a{
+
+    border-radius: 100px;
+    border: 4px solid #FFF;
+    position: absolute;
+    padding: 15px 35px 15px  35px;
+
+    top: 86%;
+    left: 2%;
+
+    color: #FFF;
+    font-family: Inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+    text-align: left ;
+}
+.sobre-nos {
+
+    
+    padding: 78px;
+    padding-top:px ;
+    
+
+    text-align: left;
+
+}
+.sobre-nos p{
+
+text-align: left;
+width: 90%;
+
+}
+.dos-titulos {
+    margin-bottom: 25px;
+    
+    text-align: left ;
+}
+.dos-titulos div{
+    background: #00BF63;
+    width: 253px;
+    height: 18px;
+    flex-shrink: 0;
+   
+    text-align: left ;
+}
+.dos-titulos p{
+
+    width: 70%;
+    text-align: left;
+
+}
+
+.integrantes{
+    padding: 78px;
+     
+    background: #474747;
+    
+    text-align: left ;
+}
+
+.integrantes h1{
+color: white;
+
+text-align: left ;
+
+}
+.integrantes p{
+width: 70%;
+
+text-align: left ;
+color: white;
+
+
+}
+
+/*pessoas*/
+.fora-de-tudo{
+
+    background-color: #292929;
+    
+}
+.todas-fotos{
+    background-color: #292929;
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    position: relative;
+    padding: 4%;
+
+}
+.cada-pessoa {
+height:500px ;
+display: flex;
+
+width: 200px;
+
+position: static;
+transition: all 0.5s; 
+
+
+
+}
+
+
+.img-da-pessoa{
+
+display: flex;
+justify-content: center;
+align-items: end;
+}
+
+.img-da-pessoa h1{
+
+    display: none;
+
+    transition: 4s;
+    text-align: center;
+    color: #FFF;
+    
+}
+
+.cada-pessoa:hover{
+width: 400px;
+
+
+.img-da-pessoa h1{
+    display: block;
+    transition: 2s;
+}
+}
+
+
+.cada-pessoa:nth-child(1){
+
+    background: url(../img/nicolas.jpeg);
+
+
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+
+
+.cada-pessoa:nth-child(2){
+
+    background: url(../img/vitorA.jpeg);
+    
+    background-size: cover;
+    background-position: center;
+
+}
+.cada-pessoa:nth-child(3){
+
+    background: url(../img/maciel.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+.cada-pessoa:nth-child(4){
+
+    background: url(../img/tiago.jpeg);
+
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.cada-pessoa:nth-child(5){
+
+    background: url(../img/vitorL.jpeg);
+
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+.todainf{
+
+
+    
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+  
+    align-items: center;
+
+    position: relative;
+    background-color: white;
+
+
+
+}
+.todainf{
+
+    display: flex;  /*none*/
+    
+
+}
+
+.fundo-das-pesosaso{
+
+    background-image:url(../img/bfb400ed2083fa4799765cc114e60618.jpeg) ;
+
+    background-size:cover ;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    
+}   
+
+
+.text-e-foto{
+
+    width: 65%;
+    
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: 300px;
+    gap: 20px;
+
+}
+
+.foto-da-pessoa:nth-child(1){
+    
+    background-image: url(../img/nicolas.jpeg);
+
+    background-size: cover;
+    background-position: center;
+
+    width: 350px;
+    height: 340px;
+
+    border-radius: 50%;
+    border: white 10px solid;
+
+}
+.foto-da-pessoa:nth-child(2){
+    
+    background-image: url(../img/vitorA.jpeg);
+
+    background-size: cover;
+    background-position: center;
+
+    width: 350px;
+    height: 340px;
+
+    border-radius: 50%;
+    border: white 10px solid;
+
+}
+
+.funcao-da-pessoa{
+
+width: 100%;
+position: relative;
+
+}
+.funcao-da-pessoa div:nth-child(1) {
+
+    height: 60vh;
+margin-top: 500px;
+}
+
+.da-pessoas-class{
+
+    padding: 50px;
+    
+    background-color: white;
+    border-radius: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    
+}
+.da-pessoas-class > h1,p{
+    margin-top: 20px;
+    text-align: left;
+
+}
+

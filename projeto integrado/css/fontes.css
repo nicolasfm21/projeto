@@ -1,0 +1,83 @@
+@font-face {
+    font-family: inter;
+    src: url(../fontes/Inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+
+h1{
+
+    color: #000;
+    font-family: Inter;
+    font-size: 47px;
+    font-weight: 700;
+    
+
+}
+
+h2{
+
+    color: #000;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    
+    /* 156.25% */
+    margin: 0;
+    padding: 0;
+    
+}
+h3{
+
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 29px;
+font-style: normal;
+font-weight: 500;
+line-height: 113.8%; /* 33.002px */
+letter-spacing: 1.16px;
+}
+
+p{
+    
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 27px;
+    font-style: normal;
+    font-weight: 300;
+    
+    /* 52.348px */
+    margin: 0;
+    padding: 0;
+
+}
+
+.p-menor{
+
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 300;
+line-height: 113.8%; /* 28.45px */
+letter-spacing: 1px;
+
+
+}
+
+a .button-35 {
+
+    
+  
+    font-family: Inter;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+
+    text-align: left ;
+}
+

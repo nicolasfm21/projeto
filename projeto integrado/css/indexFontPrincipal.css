@@ -1,0 +1,390 @@
+nav {
+
+    background-color: #00000000;
+    position: absolute;
+    box-shadow: none;
+}
+
+
+
+
+
+.imgDofundo {
+
+    background: url(../img/fto-do-index2.png);
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    gap: 20%;
+    padding: 50px;
+}
+
+.imgDofundo h1 {
+
+    width: 60%;
+    color: white;
+
+}
+
+.imgDofundo button {
+
+    width: 319px;
+    height: 80px;
+    border-radius: 76px;
+    border: 4px solid #FFF;
+    background-color: rgba(0, 0, 0, 0);
+
+    color: #FFF;
+    border: 3px solid white;
+
+
+    font-family: Inter;
+    font-size: 29px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 113.8%;
+    /* 33.002px */
+    letter-spacing: 1.16px;
+
+    position: relative;
+    top: 9rem;
+}
+
+.titleButon {
+
+    position: relative;
+    top: 3rem;
+
+}
+
+.titleButon button a{
+
+    text-decoration: none;
+    color: white;
+}
+
+.osIndigenas {
+    background-color: #000000;
+    display: flex;
+    padding: 3rem;
+
+}
+
+.imag {
+
+    background: url(../img/UmPouco\ dos\ indigenas.jpg);
+    background-position: center;
+
+    background-size: cover;
+    width: 50%;
+    height: 441px;
+    flex-shrink: 0;
+
+}
+
+
+.osIndigenas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.osIndigenas h3 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 0;
+    line-height: 113.8%;
+    /* 50.072px */
+    letter-spacing: 1.76px;
+
+}
+
+.osIndigenas p {
+
+    color: #FFF;
+    
+    font-style: normal;
+    
+    line-height: 113.8%;
+    /* 46.658px */
+    letter-spacing: 1.64px;
+    text-align: left;
+
+}
+
+.dosText {
+
+    height: min-content;
+    display: flex;
+
+    flex-direction: column;
+
+    margin: 81px;
+}
+
+.dosText h3 {
+
+    margin-bottom: 2rem;
+
+}
+
+/* segunda parte */
+/* nos falamos ensinamos  */
+
+
+.toda-caixa-3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(233, 233, 233, 0.00) 0%, #D5D5D5 111.85%);
+    box-shadow: 0px -5px 32px 8px rgba(0, 0, 0, 0.22);
+
+    padding-top: 51px;
+    padding-bottom: 111px;
+
+}
+
+.textosdascaixa-de-info {
+
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 2vh;
+    margin: 10px;
+}
+
+.todos-os-ensinamos {
+
+    .caixaInteira-ensina {
+
+        box-shadow: 6px 4px 18px 6px rgba(0, 0, 0, 0.25);
+
+        width: 650px;
+        height: 308px;
+
+
+    }
+
+    .formatarTodaImg {
+
+        width: 300px;
+        z-index: 1;
+    }
+
+    .formataTodaCaixaTexto {
+
+
+        background: #FFF;
+        box-shadow: 0px 4px 27px 7px rgba(0, 0, 0, 0.25);
+        padding: 23px;
+        padding-left: 37px;
+
+        z-index: 3;
+
+    }
+
+    .formataTodaCaixaTexto p {
+
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    .caixa-unica1 {
+
+        background: #975D28;
+
+    }
+
+    .formataButon {
+
+        border-radius: 54px;
+        border: 4px solid #FFF;
+        background-color: #00000000;
+        padding: 10px;
+        width: 180px;
+
+    }
+
+    .formataButon a {
+
+        text-decoration: none;
+        color: #FFF;
+        text-align: center;
+        font-family: Inter;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 113.8%;
+        letter-spacing: 2.76px;
+
+    }
+
+    .Mover-img1 {
+
+        position: relative;
+        left: -60px;
+        top: -70px;
+    }
+
+    .moveCaixaTextos1 {
+
+        position: relative;
+        left: 200px;
+        top: -370px;
+    }
+
+    .MoveButon1 {
+        position: relative;
+        top: -340px;
+        left: 350px;
+    }
+
+    /*segunda caixa*/
+    .caixa-unica2 {
+
+        background: #12CD25;
+        margin-top: 150px;
+
+    }
+
+    .Mover-img2 {
+        position: relative;
+        top: -80px;
+        left: 400px;
+    }
+
+    .moveCaixaTextos2 {
+
+        position: relative;
+        left: -200px;
+        top: -400px;
+    }
+
+    .MoveButon2 {
+        position: relative;
+        top: -380px;
+        left: 120px;
+    }
+
+    
+    margin-top: 120px;
+    
+    
+}
+
+/* ponto de partida */
+.ponto-de-partida {
+
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 75px;
+    padding-left: 69px;
+    padding-right: 52px;
+    padding-bottom: 100px;
+
+}
+
+
+.ponto-de-partida img {
+
+    width: 45%;
+
+}
+
+.text-do-partida {
+
+    margin-left: 52px;
+
+}
+
+.text-do-partida p {
+    margin-top: 34px;
+    text-align: left;
+
+}
+
+/* sobre-faith */
+
+.sobre-faith{
+
+   
+   
+    
+
+    background: url(../img/Group\ 73\ 1.png);
+    background-position: center;
+    
+
+
+display: flex;
+align-items: center;
+justify-content: space-around;
+flex-direction: row;
+}
+
+.sobre-faith img{
+
+    
+    margin: 69px;
+    width: 50%;
+    max-width: 500px;
+}
+
+.sobre-nos{
+    border-radius: 53px;
+    background: rgba(184, 184, 184, 0.30);
+ 
+    padding: 50px;
+    
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-direction: column;
+    max-width: 600px;
+
+}
+
+.sobre-nos p{
+
+text-align: left;
+
+
+}
+.sobre-nos button{
+
+    background-color: #00000000;
+    border: 5px solid #888;
+    padding: 20px;
+}
+.sobre-nos button a{
+    text-decoration: none;
+    
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 25px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 113.8%;
+        letter-spacing: 2.76px;
+
+}

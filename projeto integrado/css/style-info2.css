@@ -1,0 +1,566 @@
+
+
+
+
+.title-do-site-pag1{
+
+    overflow: hidden;
+
+}
+
+.ostitulos {
+
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+
+   
+    transform: scale(1.5);
+    margin: 0;
+    margin-top: 70px;
+}
+
+.ostitulos .toda-caixa-title h1 {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.ostitulos .toda-caixa-title h1 a {
+
+    text-decoration: none;
+
+    font-family: Inter;
+    font-size: 18px;
+
+    font-weight: 400;
+    color: #a1a1a1;
+    width: fit-content;
+    height: fit-content;
+
+}
+
+
+.toda-caixa-title {
+    width: 125px;
+    text-align: center;
+    height: fit-content;
+    padding: 0px;
+
+    border-bottom: 5px solid #a1a1a1;
+
+}
+
+.toda-caixa-title h1 {
+
+    margin: 0 !important;
+    padding: 0 !important;
+
+}
+
+.toda-caixa-title h1 a {
+
+    margin: 0;
+    padding: 0;
+    color: #000000;
+
+}
+
+.toda-caixa-title:hover h1 a {
+
+    color: black;
+
+}
+
+
+.toda-caixa-title:nth-child(1):hover {
+
+    border-bottom: 5px solid #00B574;
+
+
+}
+
+.toda-caixa-title:nth-child(2):hover {
+
+    border-bottom: 5px solid #FF4D00;
+
+
+}
+
+.toda-caixa-title:nth-child(3):hover {
+
+    border-bottom: 5px solid #DB00AB;
+
+
+}
+
+.toda-caixa-title:nth-child(4):hover {
+
+    border-bottom: 5px solid #E4A400;
+
+
+}
+
+.toda-caixa-title:nth-child(5):hover {
+
+    border-bottom: 5px solid #00ADE4;
+
+
+}
+
+.toda-caixa-title:nth-child(6):hover {
+
+    border-bottom: 5px solid #12E400;
+
+
+}
+
+.toda-caixa-title:nth-child(7):hover {
+
+    border-bottom: 5px solid #D40000;
+
+
+}
+
+.toda-caixa-title:nth-child(8):hover {
+
+    border-bottom: 5px solid #FF8A00;
+
+
+}
+
+.toda-caixa-title:nth-child(9):hover {
+
+    border-bottom: 5px solid #319900;
+
+
+}
+
+.toda-caixa-title:nth-child(10):hover {
+
+    border-bottom: 5px solid #0028B4;
+
+
+}
+
+.caixa-inicial {
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    margin-top: 10vh;
+    padding-top: 20px;
+    height: fit-content;
+    gap: 100px;
+}
+
+.textos-inicial {
+
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.textos-inicial>h1,
+p {
+    text-align: left;
+    color: #000;
+
+}
+
+.textos-inicial p {
+
+    font-size: 20px;
+}
+
+
+
+
+.title-do-site-pag p {
+
+    width: 70vh;
+    height: 19.1699604743083vh;
+    flex-shrink: 0;
+
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 113.8%;
+    /* 33.002px */
+    letter-spacing: 1.16px;
+
+}
+
+
+.butoom-tiles-daspg a {
+
+    text-decoration: none;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 500;
+
+    background: #00BE63;
+    box-shadow: 0px 4px 91px 0px rgba(0, 0, 0, 0.25);
+    padding: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: relative;
+    top: 30px;
+    left: -150px;
+
+}
+
+
+
+.lado-esquerdo-dos-titles img {
+
+    width: 50vh;
+
+
+}
+
+.move-fundo-verde{
+
+width: 100%;
+
+}
+
+.primeira-sec {
+
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-around;
+    gap: 5%;
+    padding: 65px;
+    position: relative;
+    
+}
+
+.envoltad-da-caixa {
+
+    border-radius: 277px;
+    background: #008F4B;
+
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    display: grid;
+    place-items: center;
+    position: absolute;
+    top: -120px;
+}
+
+.envoltad-da-caixa img{
+width: 60%;
+
+}
+
+.para-toda-caixa-daprimeira {
+
+    background: #EFEFEF;
+    box-shadow: 0px 4px 65px 0px rgba(0, 0, 0, 0.25);
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3%;
+    padding-bottom: 1%;
+    max-width: 500px;
+    position: relative;
+top: 10px;
+}
+
+.para-toda-caixa-daprimeira h2{
+
+    margin:29px ;
+    margin-top: 40px;
+    font-size: 35px;
+
+}
+.para-toda-caixa-daprimeira p {
+
+text-align: justify;
+
+color: #000;
+
+font-family: Inter;
+font-size: 25px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+
+}
+/* parte2 historia */
+
+.toda-parte{
+padding: 4%;
+
+}
+.textos-da-historia {
+
+    margin-top: 3%;
+}
+
+.para-toda-parte-do-titulo{
+
+text-align: center;
+display: flex;
+
+justify-content: center;
+align-items: center;
+
+height: fit-content;
+width: fit-content;
+gap: 10px;
+
+}
+
+.toda-parte h1{
+
+margin: 0;
+
+}
+
+
+.primeiro-texto-historia{
+
+gap: 20px;
+
+height: fit-content;
+
+
+}
+.textes-historia1{
+
+display: flex;
+flex-direction: row;
+
+
+
+}
+
+
+.primeiro-texto-historia img{
+
+    
+    max-height: 800px;
+    
+    flex-shrink: 0;
+    position: relative;
+    top: -10vh;    
+}
+/*terceira-parte-alimentacao */
+.parte-da-arte-titulo img{
+
+width: 100px;
+
+}
+.parte-da-historia-alimentacao img{
+
+    width: 100px;
+
+}
+
+.terceira-parte-alimentacao {
+    
+
+    background: #000000;
+    .textos-da-alinetacao{
+
+        display: flex;
+
+        margin-top: 40px;
+
+    }
+
+    .titulo-alimentacao h1{
+
+        color: white;
+    
+    }
+
+    .textos-da-alinetacao img{
+        width: 40%;
+
+        transform: translateY(-10%);
+    }
+
+    
+    .textos-da-alinetacao p{
+        color: #FFF;
+        padding-right:25px;
+    }
+
+}
+
+
+/*arte*/
+.quarta-parte-arte{
+overflow: hidden;
+padding-bottom: 0;
+
+    max-height: 1250px;
+
+
+}
+
+.arte-tudo-q-tem{
+
+    display: flex;
+
+}
+
+
+
+
+
+
+
+.arte-com-texto{
+    border: 13px solid #06F;
+    background-color: #F4F4F4;
+    padding: 44px;
+    width: 110%; 
+    height: 50%;
+    z-index: 20;
+    
+}
+
+.dos-textos-da-arte p{
+        color: #000;
+font-family: Inter;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: 113.8%; /* 34.14px */
+letter-spacing: 1.2px;
+
+
+}
+
+.dos-textos-da-arte h3{
+        margin-top: 40px;
+        color: #000;
+        font-family: Inter;
+        
+        font-style: normal;
+        font-weight: 600;
+        line-height: 113.8%; /* 34.14px */
+        letter-spacing: 1.2px;
+        
+    }
+    .dos-textos-da-arte ul li,ol{
+        color: #000;
+        
+        font-size: 30px;
+        
+        font-weight: 300;
+        
+
+    }
+
+    .tudo-da-arte .img-das-asrtes{
+
+    
+    height: 656px;
+    flex-shrink: 0;
+    position: relative;
+    /* top: 170px; */
+    
+    
+    
+    z-index: -1;
+        
+}
+.tudo-da-arte {
+    display: flex;
+    align-items: center;
+    position: relative;
+       
+}
+
+.caixa-azul1{
+
+
+z-index: -1;
+position: relative;
+top: -580px;
+left: -10%;
+
+
+}
+
+
+
+
+
+
+/*querta-parte-area-lingua */
+
+.querta-parte-area-lingua {
+    background-color: #000;
+    color: white;
+    display: flex;
+    gap: 40px;
+}   
+
+.area-teritorial{
+
+    border: 15px solid #FB0000;
+    width: 50%;
+    padding: 2rem; 
+    height: fit-content;   
+    
+}
+.area-teritorial p {
+
+color: white;
+margin-top: 15px;
+}
+.so-title-area h1{
+
+   color: white;
+}
+.so-title-area div{
+
+        width: 109px;
+        height: 14px;
+        flex-shrink: 0;
+        background: #00A355;
+        margin: 10px;  
+        margin-top: 8px;
+
+}
+
+.tituli-are {
+
+    
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 20px;
+    
+}
+.tituli-are svg{
+
+    width: 70px;
+
+}
+
+.lingua{
+
+    border: 15px solid #00A355;
+    margin-top: 150px;
+
+}
